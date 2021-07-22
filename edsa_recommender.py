@@ -283,7 +283,7 @@ def main():
         Content Based Filter resulting in increased performance.
         """, unsafe_allow_html=True)
 
-        st.success("Winner: Collaborative Filtering!")
+        st.success("**Winner: Collaborative Filtering!**")
         st.markdown("""It is a better method to use for our recommender system since to it can conduct feature learning on its own, which will enable it to learn 
         which features are best to use and it will only grow more useful in time. Collaborative filtering users other user ratings to create decisions and adapts 
         to the users interests which will inevitably change over time. Collaborative Filtering is vastly superior to the rigid and restrictive content based filtering method.
